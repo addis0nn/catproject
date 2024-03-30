@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bored? Cure your boredom</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Bored? Look up and vote on cats and cure your boredom.</h1>
+  <div id="vote-results" class="vote-results">
+    <div id="grid" class="imgrid"></div>
+  </div>
+
+  <div id="vote-options" class="vote-options">
+    <div class="image-container">
+      <img id="image-to-vote-on" class="image-to-vote"></img>
+    </div>
+
+    <button onClick="vote(1)" class="vote-btn">Vote Up</button>
+    <button onClick="vote(-1)" class="vote-btn">Vote Down</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
